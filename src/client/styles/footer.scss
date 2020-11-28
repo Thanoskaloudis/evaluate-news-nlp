@@ -1,22 +1,16 @@
 footer {
     padding: 0.5rem 0 0;
-    opacity: 0.7;
-}
-
-.fnav ul {
     display: flex;
-    justify-content: center;
+    background-color:#002a389c;
+    line-height: 1.3;
+    min-height: 3rem;
 }
 
-
-.fnav li {
-    padding: 0 0.25em;
-    font-size: 1.75em;
-}
-
-
-.copyright {
-    text-align: center;
-    font-size: 0.75em;
-    padding: 0 0.5rem 0.5rem;
+ul {
+    list-style-type: none;
+    display: inline-grid;
+    grid-auto-flow: column;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
 }

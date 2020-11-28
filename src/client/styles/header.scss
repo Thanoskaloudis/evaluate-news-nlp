@@ -2,4 +2,11 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 10px 40px;
+    background: #76a998c7;
+}
+
+.header_logo {
+    text-shadow: 3px 3px rgba(black, .1);
+    transition: .3s;
+    font-size: 20px;
 }

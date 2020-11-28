@@ -1,7 +1,17 @@
 form {
     border: 1px solid #545454;
-    border-radius: 3px;
-    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    margin: 0.5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+    0 1px 1px rgba(128, 128, 128, 0.155),
+    0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+    0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+    0 12px 12px rgba(128, 128, 128, 0.35);
 }
 
 input {
@@ -9,4 +19,25 @@ input {
     width: 100%;
     line-height: 16px;
     margin: 10px 0;
+}
+
+button {
+    padding: 5px 25px;
+    margin: 10px 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #272626e8;
+    &:hover, &:focus, &:active {
+        box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109);
+    }
+}
+
+.submit-form{
+    display: flex;
+}
+
+.results{
+    color: #ffffffc9;
+    display: grid;
+    grid-gap: 0.7rem;
 }

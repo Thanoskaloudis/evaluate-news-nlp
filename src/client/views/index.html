@@ -8,33 +8,39 @@
     <body>
 
         <header>
-            <div class="">
-                Logo
-            </div>
-            <div class="">
-                navigation
+            <div class="header_logo">
+                Sentiment Analysis
             </div>
         </header>
-
         <main>
             <section>
+                <p>Enter a URL of an article or a blog to discover its sentiment.</p>
                 <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="url" type="text" name="input" value="" placeholder="Name">
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                    <div class="submit-form">
+                    <input id="url" type="text" name="input" value="" placeholder="Enter URL">
+                    <button type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">Submit</button>
+                    </div> 
+                    <section class="results">
+                        <strong>Form Results:</strong>
+                        <div id="agreement"></div>
+                        <div id="subjectivity"></div>
+                        <div id="confidence"></div>
+                        <div id="irony"></div>
+                    </section>
                 </form>
-            </section>
-
-            <section>
-                <strong>Form Results:</strong>
-                <div id="agreement"></div>
-                <div id="subjectivity"></div>
-                <div id="confidence"></div>
-                <div id="irony"></div>
             </section>
         </main>
 
         <footer>
-            <p>This is a footer</p>
+            <ul>
+                <li><a href="https://twitter.com">Twitter</a></li>
+                <li><a href="mailto:8anos.kal@gmail.com">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/thanos-kaloudis-7643ba164/">Linkedin</a></li>
+                <li><a href="https://github.com/Thanoskaloudis">Github</a></li>
+                <li>
+                  <p>👋</p>
+                </li>
+              </ul>
         </footer>
 
     </body>
